@@ -1,10 +1,6 @@
-## Isograms
-An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+# Reverse words
+Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
 
-Example: (Input --> Output)
-
-"Dermatoglyphics" --> true "aba" --> false "moOse" --> false (ignore letter case)
-
-isIsogram "Dermatoglyphics" = true
-isIsogram "moose" = false
-isIsogram "aba" = false
+Examples
+"This is an example!" ==> "sihT si na !elpmaxe"
+"double  spaces"      ==> "elbuod  secaps"

@@ -1,10 +1,7 @@
-## Isograms
-An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+## Find the divisors!
+Create a function named divisors/Divisors that takes an integer n > 1 and returns an array with all of the integer's divisors(except for 1 and the number itself), from smallest to largest. If the number is prime return the string '(integer) is prime' (null in C#, empty table in COBOL) (use Either String a in Haskell and Result<Vec<u32>, String> in Rust).
 
-Example: (Input --> Output)
-
-"Dermatoglyphics" --> true "aba" --> false "moOse" --> false (ignore letter case)
-
-isIsogram "Dermatoglyphics" = true
-isIsogram "moose" = false
-isIsogram "aba" = false
+Example:
+divisors(12); // should return [2,3,4,6]
+divisors(25); // should return [5]
+divisors(13); // should return "13 is prime"
